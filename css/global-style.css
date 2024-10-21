@@ -1,0 +1,49 @@
+/* Global Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.btn {
+  background-color: #1f3d7f;
+  border-color: #1f3d7f;
+  border-radius: 0px;
+  font-size: 14px; }
+
+h1, h2, h3 {
+  font-family: 'Chakra Petch', sans-serif; }
+
+p {
+  font-family: 'Poppins', sans-serif; }
+
+span {
+  font-family: 'Poppins', sans-serif; }
+
+a {
+  font-family: 'Poppins', sans-serif; }
+
+html {
+  font-size: 16px; }
+  @media (max-width: 1024px) {
+    html {
+      font-size: 14px; } }
+
+body {
+  font-family: 'Poppins', sans-serif; }
+
+
+a.btn {
+  font-size: 16px;
+  padding: 7px 25px;
+  border-radius: 30px;
+  background-color: #222;
+  color: #fff;
+  text-decoration: none;
+  transition: all ease 0.3s;
+  border: none;
+  font-weight: 500;
+}
+
+a.btn:hover {
+  color: #222;
+  background-color: #eee;
+  text-decoration: none;
+}

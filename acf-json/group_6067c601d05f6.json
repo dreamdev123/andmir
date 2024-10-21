@@ -1,0 +1,206 @@
+{
+    "key": "group_6067c601d05f6",
+    "title": "Parent Support Groups",
+    "fields": [
+        {
+            "key": "field_6067c601dbe8d",
+            "label": "Region",
+            "name": "region",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Northern": "Northern",
+                "Central Ontario (North of GTA)": "Central Ontario (North of GTA)",
+                "Eastern Ontario": "Eastern Ontario",
+                "Central Ontario (East of GTA)": "Central Ontario (East of GTA)",
+                "Western Ontario": "Western Ontario",
+                "Central Ontario (West of GTA)": "Central Ontario (West of GTA)",
+                "Toronto\/GTA": "Toronto\/GTA"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_6067c601dbecd",
+            "label": "Clinic Type",
+            "name": "clinic_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Private": "Private",
+                "Public": "Public",
+                "Both": "Both",
+                "NA": "NA"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_6067c601dbf07",
+            "label": "Field",
+            "name": "field",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Adoption Practitioner": "Adoption Practitioner",
+                "Child Welfare": "Child Welfare",
+                "Mental Health - Children's": "Mental Health - Children's",
+                "Mental Health - Adult": "Mental Health - Adult",
+                "Educator": "Educator",
+                "Psychologist": "Psychologist",
+                "Psychiatrist": "Psychiatrist",
+                "Medical": "Medical",
+                "Lawyer": "Lawyer",
+                "Councelor": "Councelor",
+                "Therapist": "Therapist",
+                "Justice System Professional": "Justice System Professional",
+                "Other Social Worker": "Other Social Worker"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_6067c601dbf40",
+            "label": "Description",
+            "name": "description",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_6067c601dbf7a",
+            "label": "Bi\/Multilingual",
+            "name": "bimultilingual",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 0,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        },
+        {
+            "key": "field_6067c601dbfb3",
+            "label": "City",
+            "name": "city",
+            "type": "text",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "33",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": ""
+        },
+        {
+            "key": "field_6067c601dbfee",
+            "label": "User Account",
+            "name": "user_account",
+            "type": "user",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "34",
+                "class": "",
+                "id": ""
+            },
+            "role": [
+                "psg"
+            ],
+            "allow_null": 0,
+            "multiple": 0,
+            "return_format": "array"
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "parent_support_group"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "permalink",
+        "the_content",
+        "excerpt",
+        "discussion",
+        "comments",
+        "revisions",
+        "slug",
+        "author",
+        "format",
+        "page_attributes",
+        "featured_image",
+        "categories",
+        "tags",
+        "send-trackbacks"
+    ],
+    "active": true,
+    "description": "",
+    "modified": 1617414056
+}

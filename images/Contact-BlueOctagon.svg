@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31.979" height="31.979" viewBox="0 0 31.979 31.979">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#007d9b"/>
+      <stop offset="1" stop-color="#13576e"/>
+    </linearGradient>
+  </defs>
+  <g transform="translate(-614.022 -207.965)">
+    <path id="Contact-BlueOctagon" d="M7.023,0,0,7.023v9.932l7.023,7.023h9.932l7.023-7.023V7.023L16.956,0Z" transform="translate(618.022 211.965)" fill="url(#linear-gradient)"/>
+    <path id="Contact-BlueOctagon_-_Outline" data-name="Contact-BlueOctagon - Outline" d="M7.023,0,0,7.023v9.932l7.023,7.023h9.932l7.023-7.023V7.023L16.956,0H7.023M5.366-4H18.612l9.366,9.366V18.612l-9.366,9.366H5.366L-4,18.612V5.366Z" transform="translate(618.022 211.965)" fill="#fff"/>
+  </g>
+</svg>

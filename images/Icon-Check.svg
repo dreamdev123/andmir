@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="46.092" height="46.092" viewBox="0 0 46.092 46.092">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#007d9b"/>
+      <stop offset="1" stop-color="#13576e"/>
+    </linearGradient>
+  </defs>
+  <g id="Icon-Check" transform="translate(-70.525 -1496.065)">
+    <path id="Path_35" data-name="Path 35" d="M13.5,0,0,13.5V32.592l13.5,13.5H32.592l13.5-13.5V13.5L32.592,0Z" transform="translate(70.525 1496.064)" fill="url(#linear-gradient)"/>
+    <path id="Path_1011" data-name="Path 1011" d="M3280.515,6249.939l-12.636-12.635,4.243-4.243,8.394,8.393,16.96-16.96,4.243,4.242Z" transform="translate(-3191.227 -4717.045)" fill="#fff"/>
+  </g>
+</svg>

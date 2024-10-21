@@ -1,0 +1,53 @@
+.page-template-default {
+	.sc {
+		padding-top: 5rem;
+		padding-bottom: 5rem;
+	}
+
+	.post-thumbnail {
+		margin-bottom: 4rem;
+		margin-top: 2rem;
+		border: 3px solid #1f3d7f;
+		img {
+			width: 100%;
+			height: auto;
+		}		
+	}
+
+	.accordion-wrp {
+		.card {
+			border: none;
+		}
+		.card-header {
+			text-align: center;
+			background-color: #ffffff;
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+
+		.btn {
+			background-color: #ffffff;
+			border-color: #ffffff;
+			font-size: 1.3rem;
+			padding: 0px;
+		}
+	}
+
+	.page-banner {
+		color: #ffffff;
+		margin-bottom: 4rem;
+		margin-top: 2rem;
+		.middle_banner_btn {
+			width: 150px;
+		}
+	}
+}
+.each-single-post {
+	margin-bottom: 20px;
+	.img-wrp {
+		margin-bottom: 10px;
+	}
+	h3 {
+		font-size: 1.5rem;
+	}
+}

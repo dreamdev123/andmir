@@ -1,0 +1,123 @@
+{
+    "key": "group_604a1532417a7",
+    "title": "Programs",
+    "fields": [
+        {
+            "key": "field_604a1537b47c6",
+            "label": "Audience",
+            "name": "Audience",
+            "type": "checkbox",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Adoptive families": "Adoptive families",
+                "Adult adoptees": "Adult adoptees",
+                "Customary care givers": "Customary care givers",
+                "Educators": "Educators",
+                "Extended family": "Extended family",
+                "First\/original\/birth families": "First\/original\/birth families",
+                "Foster parents": "Foster parents",
+                "Kinship caregivers": "Kinship caregivers",
+                "Pre-adoptive": "Pre-adoptive",
+                "Professionals": "Professionals"
+            },
+            "allow_custom": 0,
+            "default_value": [],
+            "layout": "horizontal",
+            "toggle": 0,
+            "return_format": "value",
+            "save_custom": 0
+        },
+        {
+            "key": "field_604a15a59faba",
+            "label": "Ed. Type",
+            "name": "ed_type",
+            "type": "radio",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "Live webinar": "Live webinar",
+                "On-demand webinar": "On-demand webinar",
+                "Audio recording": "Audio recording",
+                "Multi-day curriculum": "Multi-day curriculum",
+                "Workshop": "Workshop"
+            },
+            "allow_null": 0,
+            "other_choice": 0,
+            "default_value": "",
+            "layout": "horizontal",
+            "return_format": "value",
+            "save_other_choice": 0
+        },
+        {
+            "key": "field_604a15eb9fabb",
+            "label": "Program Description",
+            "name": "program_description",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "delay": 0
+        },
+        {
+            "key": "field_604a1616596b5",
+            "label": "Link to Progam Page",
+            "name": "link_to_progam_page",
+            "type": "page_link",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "post_type": "",
+            "taxonomy": "",
+            "allow_null": 0,
+            "allow_archives": 1,
+            "multiple": 0
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "programs"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": [
+        "the_content"
+    ],
+    "active": true,
+    "description": "",
+    "modified": 1616596143
+}
